@@ -1,0 +1,144 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  
+  .login-container {
+    display: flex;
+    height: 100vh;
+    position: fixed; /* Cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1005; /* Ensure it's above the header */
+  }
+  
+  .login-left {
+    flex: 1; /* Make this section flexible to take up available space */
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1001; /* Ensure the login form is on top of the image */
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 3px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 3px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-top: 2px;
+    text-align: right;
+    color: #007BFF;
+    cursor: pointer;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .remember-me input {
+    margin-right: 10px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 5px;
+    background-color: #5A67D8;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+  }
+  
+  .google-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #666;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .google-login img {
+    margin-right: 10px;
+  }
+  
+  .register {
+    text-align: center;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .register a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .login-right {
+    flex: 1; /* Make this section flexible to take up available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .design-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+  }
+  

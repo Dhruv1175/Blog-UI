@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    background-color: #121212; /* Darker background for better contrast */
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .App {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ff4d4d; /* Accent color under headings */
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Navbar */
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff4d4d; /* Accent color on hover */
+  }
+  
+  .navbar-brand {
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  
+  .form-control {
+    background-color: #222;
+    border: 1px solid #ff4d4d;
+    color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  .btn-outline-light {
+    border-color: #ff4d4d;
+    color: #ff4d4d;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #ff4d4d;
+    color: #ffffff;
+  }
+  
+  /* Latest Posts and World News */
+  .card {
+    background-color: #1e1e1e;
+    border: 1px solid #ff4d4d;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 77, 77, 0.2);
+  }
+  
+  .card-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ff4d4d; /* Title accent color */
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #bbbbbb;
+  }
+  
+  .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    color: #ffffff;
+  }
+  
+  .card-img-overlay .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-img-overlay .card-text {
+    font-size: 0.85rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #101010;
+    color: #ffffff;
+    padding: 2rem 0;
+    margin-top: 2rem;
+  }
+  
+  footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #ff4d4d; /* Accent color */
+  }
+  
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer ul li a {
+    color: #bbbbbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: #ff4d4d;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #bbbbbb;
+  }
+  

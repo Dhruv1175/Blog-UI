@@ -1,0 +1,46 @@
+.comments-section {
+    margin-top: 2rem;
+  }
+  
+  .comments-list {
+    margin-bottom: 1.5rem;
+  }
+  
+  .comment-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .add-comment textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .add-comment button {
+    display: block;
+    margin-left: auto;
+  }
+
+  .image-container {
+    width: 100%; /* Full width of the container */
+    max-width: 100%; /* The red line's width (or container width) */
+    padding-bottom: 10px; /* Spacing between the image and the red line */
+    overflow: hidden; /* Ensures no overflow from the image */
+  }
+  
+  .post-image {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Keeps the aspect ratio of the image */
+    object-fit: contain; /* Ensures no part of the image is cropped */
+    display: block; /* Ensures no extra space below the image */
+  }
+  
+  
+  

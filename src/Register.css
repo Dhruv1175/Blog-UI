@@ -1,0 +1,189 @@
+/* General body and html styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the registration page */
+  .register-page-container {
+    display: flex;
+    height: 100vh; /* Fit within 100vh */
+    position: fixed; /* Cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1005; /* Ensure it's above other content */
+  }
+  
+  /* Left side for registration form */
+  .register-page-left {
+    flex: 1; /* Make this section flexible to take up available space */
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center content horizontally */
+    z-index: 1001; /* Ensure the form is on top of the image */
+    overflow: hidden; /* Prevent scrollbars */
+  }
+  
+  /* Profile upload styling */
+  .register-page-profile-upload-container {
+    margin-bottom: 20px; /* Space between profile upload and form fields */
+    width: 80%; /* Make sure it uses available width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-page-upload-text {
+    margin-bottom: 10px;
+    color:#333;
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .register-page-upload-circle {
+    width: 100px; /* Size of the circle */
+    height: 100px; /* Size of the circle */
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .register-page-upload-circle span {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Hide the file input but make it clickable */
+  .register-page-file-input {
+    display: none;
+  }
+  
+  /* Logo container */
+  .register-page-logo-container {
+    margin-bottom: 10px; /* Reduced spacing */
+  }
+  
+  .register-page-logo {
+    height: 50px; /* Adjusted size */
+    width: 50px; /* Adjusted size */
+  }
+  
+  /* Headings and paragraph styling */
+  .register-page-heading {
+    font-size: 24px; /* Slightly smaller font size */
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .register-page-paragraph {
+    font-size: 14px; /* Slightly smaller font size */
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .register-page-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Input fields styling */
+  .register-page-input-group {
+    margin-bottom: 15px; /* Adjusted margin */
+    width: 100%;
+  }
+  
+  .register-page-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .register-page-input-group input {
+    width: 100%;
+    padding: 8px; /* Slightly smaller padding */
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Slightly smaller border-radius */
+    font-size: 14px; /* Slightly smaller font size */
+  }
+  
+  /* Buttons styling */
+  .register-page-button, .register-page-google-login {
+    width: 100%;
+    padding: 10px; /* Adjusted padding */
+    border-radius: 4px; /* Slightly smaller border-radius */
+    font-size: 14px; /* Slightly smaller font size */
+    cursor: pointer;
+    margin-bottom: 15px; /* Adjusted margin */
+  }
+  
+  .register-page-button {
+    background-color: #5A67D8;
+    border: none;
+    color: #fff;
+  }
+  
+  .register-page-button:hover {
+    background-color: #4c51bf; /* Darker shade on hover */
+  }
+  
+  .register-page-google-login {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .register-page-google-logo {
+    width: 18px; /* Adjusted size */
+    height: 18px; /* Adjusted size */
+    margin-right: 8px; /* Adjusted margin */
+  }
+  
+  /* Divider text */
+  .register-page-divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+  }
+  
+  /* Login link styling */
+  .register-page-login-link {
+    text-align: center;
+    color: #666;
+  }
+  
+  .register-page-login-link a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  /* Right side for background image */
+  .register-page-right {
+    flex: 1; /* Make this section flexible to take up available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .register-page-design-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
+  }
+  
